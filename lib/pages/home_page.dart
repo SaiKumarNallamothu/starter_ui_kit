@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black12,
+      backgroundColor: Colors.greenAccent,
       appBar: AppBar(
         title: const Text("Starter Ui Kit"),
       ),

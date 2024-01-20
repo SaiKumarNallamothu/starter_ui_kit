@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:starter_ui_kit/pages/Home/Drawers/drawer_page_1.dart';
+import 'package:starter_ui_kit/pages/Home/Drawers/drawer_page_2.dart';
+import 'package:starter_ui_kit/pages/Home/my_drawer_page.dart';
 import 'package:starter_ui_kit/pages/home_page.dart';
 
 void main() {
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const DrawerPageTwo(),
     );
   }
 }
